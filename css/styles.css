@@ -1,0 +1,231 @@
+/***********************************************************************/
+/**************************** Broad Styling ****************************/
+
+body {
+  color: rgb(200, 200, 200);
+  background-color: rgb(35, 35, 35);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(180, 200, 255);
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  color: rgb(90, 130, 220);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+p {
+  color: rgb(180, 180, 180);
+  font-weight: 300;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+.title-section, .testimonial-section, .press-section, .cta-section {
+  background-color: rgb(10, 15, 35);
+}
+
+/***************************************************************************/
+/**************************** Sectional Styling ****************************/
+
+/* Title */
+
+.title-section .container-fluid {
+  padding-bottom: 0;
+}
+
+.title-section .navbar {
+  padding: 0 0 12%;
+}
+
+.title-section .navbar .brandlogo {
+  color: rgb(220, 220, 220);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-decoration: overline;
+}
+
+.brandlogo:hover {
+  text-decoration: overline;
+  font-weight: 900;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+.title-section .nav-item {
+  margin-right: 20%;
+  text-align: left;
+}
+
+.title-section .nav-item .nav-link {
+  color: rgb(200, 200, 200);
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.title-section .btn {
+  margin: 10% 5% 5%;
+}
+
+.banner-img {
+  position: relative;
+  right: 3%;
+  transform: rotate(5deg);
+  width: 85%;
+}
+
+/* Features */
+
+.feature-icon {
+  color: rgb(145, 175, 255);
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+.feature-icon:hover {
+  color: rgb(90, 130, 220);
+}
+
+/* Testimonials */
+
+.testimonial {
+  height: 25rem;
+  padding: 10% 10% 0;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 3%;
+  width: 10%;
+}
+
+.game-title {
+  font-style: italic;
+  padding-right: .5rem;
+}
+
+/* Press */
+
+.press-img {
+  margin: 5% 5% 10%;
+  width: 50%;
+}
+
+/* Pricing */
+
+.card, .card-deck {
+  margin: 5%;
+}
+
+.outline-button {
+  color: rgb(180, 180, 180);
+  border-color: rgb(17, 38, 85);
+}
+
+.full-button {
+  color: rgb(180, 180, 180);
+  background-color: rgb(17, 38, 85);
+  border-color: rgb(17, 38, 85);
+}
+
+.outline-button:hover, .full-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(25, 60, 122);
+  border-color: rgb(25, 60, 122);
+}
+
+/* CTA */
+
+.cta-heading {
+  font-size: 1.75rem;
+  line-height: 4.5rem;
+  padding: 8% 10% 5%;
+}
+
+.cta-section .btn {
+  margin: 2% 5% 8%;
+}
+
+/* Footer */
+
+.footer-section {
+  font-size: .666rem;
+  padding: 7%;
+}
+
+.footer-icon {
+  margin: 25px 15px;
+}
+
+/****************************************************************************/
+/**************************** Non-mobile Styling ****************************/
+
+@media (min-width: 992px) {
+
+  /* Broad Styling */
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  /* Title */
+
+  .title .navbar .brandlogo {
+    font-size: 2rem;
+  }
+
+  .banner {
+    text-align: left;
+  }
+
+  .title .btn {
+    margin: 10% 6% 10% 0;
+  }
+
+  .banner-img {
+    bottom: 15%;
+    left: 15%;
+  }
+
+  /* Features */
+
+  .side-feature {
+    padding: 6rem 0 0;
+  }
+
+  /* Testimonials */
+
+  .testimonial {
+    height: 35rem;
+    padding: 10% 10% 5%;
+  }
+
+  /* CTA */
+
+  .cta-heading {
+    font-size: 2.5rem;
+  }
+
+}
